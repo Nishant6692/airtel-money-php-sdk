@@ -28,4 +28,4 @@ It supports OAuth2 authentication, initiating payment collections, and handling 
 Install via Composer:
 
 ```bash
-composer require yourname/airtel-money-sdk
+composer require nishant/airtel-money-php-sdk
