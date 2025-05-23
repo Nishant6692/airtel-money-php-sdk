@@ -1,0 +1,31 @@
+{
+    "name": "nishant/airtel-money-php-sdk",
+    "description": "A PHP SDK for Airtel Money Collection API, compatible with Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "nishant"
+      }
+    ],
+    "require": {
+      "php": "^7.4 || ^8.0",
+      "illuminate/support": "^8.0 || ^9.0 || ^10.0",
+      "illuminate/http": "^8.0 || ^9.0 || ^10.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "AirtelMoney\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "AirtelMoney\\AirtelMoneyServiceProvider"
+        ]
+      }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+  }
+  
