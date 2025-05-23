@@ -29,3 +29,5 @@ Install via Composer:
 
 ```bash
 composer require nishant/airtel-money-php-sdk
+
+php artisan vendor:publish --provider="AirtelMoney\AirtelMoneyServiceProvider" --tag=config
